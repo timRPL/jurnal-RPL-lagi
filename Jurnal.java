@@ -34,7 +34,7 @@ public class Jurnal {
             fibo2 = fibonacci; 
             sum = sum + fibonacci;
         }
-        System.out.println("jumlah : " + sum);
+        System.out.println("jumlah sum : " + sum);
         return fibonacci;
     }
 }
