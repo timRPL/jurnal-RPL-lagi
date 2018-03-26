@@ -29,24 +29,25 @@ public class Rpl2 {
     System.out.println("output: ");
     for(int i=1;i<=n;i++){
         for(int k=n;k>i;k--){
-            System.out.print(" ");
+            System.out.print("o");
         }
         for(int j=1;j<=l;j++){
             System.out.print("*");
         }
             l+=2;
-            System.out.println("");
+            System.out.println("o");
         }
     l -= 4;
     for(int i=(n-1);i>=1;i--){
      for(int k=i;k<=(n-1);k++){
-         System.out.print(" ");
+         System.out.print("o");
      }
      for(int j=l;j>=1;j--){
          System.out.print("*");
             }
             l-=2;
-            System.out.println("");
+            System.out.println("o");
         }
     }
 }
+//update terbaru
