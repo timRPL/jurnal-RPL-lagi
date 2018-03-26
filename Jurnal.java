@@ -18,7 +18,7 @@ public class Jurnal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.print("Masukkan jumlah deret fibonacci: ");
+        System.out.print("Masukkan jumlah fibonacci: ");
         int number = new Scanner(System.in).nextInt();
         System.out.println("\n Jumlah fibonacci ke-" + number + " adalah  ==> " + (fibonacciLoop(number) + ""));
     }
